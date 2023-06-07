@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@100;400&display=swap" rel="stylesheet">
+    <link rel="preload" href="css/style.css" as="style"> 
+    <link rel="stylesheet" href="css/style.css">
+    <title>Lyrictastc-Discover</title>
+</head>
+<body>
+    <header class="header">
+        <h2 class="header__titulo"> 
+            <span class="header__titulo--thin">Lyric</span>tastic
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-microphone-2" width="28" height="28" viewBox="0 0 24 24" stroke-width="2" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M15 12.9a5 5 0 1 0 -3.902 -3.9" />
+                <path d="M15 12.9l-3.902 -3.899l-7.513 8.584a2 2 0 1 0 2.827 2.83l8.588 -7.515z" />
+              </svg>
+        </h2>
+        <nav class="nav">
+            <a class="nav__a light" href="">Descubre más</a>
+            <a class="nav__a light" href="">Crear más letras</a>
+            <a class="nav__a bold" href="">Inicia sesión</a>
+        </nav>
+    </header>
+
+    <!-- <h1>Canciones en general</h1> -->
+    <main class="contenedor">
+        <section class="lanzamiento">
+            <div class="informacion">
+                <div class="caratula">
+                    <img class="lanzamiento__caratula" src="imgs/relases/caraturarelase.jpeg" alt="">
+                </div>
+                <div class="datos">
+                    <h2 class="lanzamiento__titulo">Disfruta del nuevo lanzamiento del 2023</h2>
+                    <h2 class="lanzamiento__nombre">¿Cuales fronteras?</h2>
+                    <h2 class="lanzamiento__artista">Banda MS</h2>
+                    <button class="lanzamiento__boton boton-default">Leer ahora</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="contenedor__filtro">
+            <h3 class="contenedor__titulo">Selecciona un género</h3>
+            <button class="contenedor__tituloFiltro">Todo</button>
+            <button class="contenedor__tituloFiltro">Pop</button>
+            <button class="contenedor__tituloFiltro">Rock</button>
+            <button class="contenedor__tituloFiltro">Hip-Hop</button>
+            <!-- <h3 class="contenedor__tituloFiltro">Todo</h3>
+            <h3 class="contenedor__tituloFiltro">Pop</h3>
+            <h3 class="contenedor__tituloFiltro">Rock</h3>
+            <h3 class="contenedor__tituloFiltro">Hip-Hop</h3> -->
+        </section>
+
+        <div class="disposicion">
+            <section class="letras"> <!--Seccion que será el contenedor padre de los elementos-->
+                <div class="elemento">
+                    <h2 class="elemento__titulo">Time to make history</h2>
+                    <img class="elemento__caratula" src="imgs/Caratulas/persona4.jpeg" alt="">
+                    <h3 class="elemento__iterprete ">平田志穂子</h3>
+                    <h3 class="elemento__escritor ">Benjamin franklin</h3>
+                    <h3 class="elemento__fuente ">ATLUS CO.LTD</h3>
+                    <!-- <a class="boton-default elemento__boton" href="">Leer letra</a> -->
+                </div>
+
+                <div class="elemento">
+                    <h2 class="elemento__titulo">El eco de tu voz</h2>
+                    <img class="elemento__caratula" src="imgs/Caratulas/elecodetuvoz.jpeg" alt="">
+                    <h3 class="elemento__iterprete ">Playa Limbo</h3>
+                    <h3 class="elemento__escritor ">Angel BailloJorge Corrales</h3>
+                    <h3 class="elemento__fuente ">RCA Records Label</h3>
+                    <!-- <a class="boton-default elemento__boton" href="">Leer letra</a> -->
+                </div>
+
+                <div class="elemento">
+                    <h2 class="elemento__titulo">Thinking about you</h2>
+                    <img class="elemento__caratula" src="imgs/Caratulas/thinkingaboutyou.jpeg" alt="">
+                    <h3 class="elemento__iterprete ">Cadmium, Rival, Johnning</h3>
+                    <h3 class="elemento__escritor ">Alexander Christopher ClarkHugo</h3>
+                    <h3 class="elemento__fuente ">Rival & Cadmium</h3>
+                    <!-- <a class="boton-default elemento__boton" href="">Leer letra</a> -->
+                </div>
+
+                <div class="elemento">
+                    <h2 class="elemento__titulo">1trago</h2>
+                    <img class="elemento__caratula" src="imgs/Caratulas/untrago.jpeg" alt="">
+                    <h3 class="elemento__iterprete ">Danna Paola</h3>
+                    <h3 class="elemento__escritor ">Albert HypeBen AlerDanna</h3>
+                    <h3 class="elemento__fuente ">Rival & Cadmium</h3>
+                    <!-- <a class="boton-default elemento__boton" href="">Leer letra</a> -->
+                </div>
+
+                <div class="elemento">
+                    <h2 class="elemento__titulo">From The D 2 The LBC</h2>
+                    <img class="elemento__caratula" src="imgs/Caratulas/From The D 2 The LBC (with Snoop Dogg).jpeg" alt="">
+                    <p class="elemento__iterprete ">Eminem Snoop Dogg</p>
+                    <p class="elemento__escritor ">C. BroadusL. RestoM. Mathers</p>
+                    <h3 class="elemento__fuente ">ShadyRecords</h3>
+                    <!-- <a class="boton-default elemento__boton" href="">Leer letra</a> -->
+                </div>
+            </section>
+
+            <section class="artistas">
+                <p class="artistas__titulo">Artistas populares</p>
+                <div class="artista">
+                    <img class="artista__imagen" src="imgs/artistas/eminem.jpeg" alt="">
+                    <a class="artista__nombre" href="#">Eminem</a>
+                </div>
+
+                <div class="artista">
+                    <img class="artista__imagen" src="imgs/artistas/logic.jpeg" alt="">
+                    <a class="artista__nombre" href="#">Logic</a>
+                </div>
+
+                <div class="artista">
+                    <img class="artista__imagen" src="imgs/artistas/cyclo.jpeg" alt="">
+                    <a class="artista__nombre" href="#">Cyclo</a>
+                </div>
+
+                <div class="artista">
+                    <img class="artista__imagen" src="imgs/artistas/jackharlow.jpeg" alt="">
+                    <a class="artista__nombre" href="#">Jack Harlow</a>
+                </div>
+
+                <div class="artista">
+                    <img class="artista__imagen" src="imgs/artistas/belanova.jpeg" alt="">
+                    <a class="artista__nombre" href="#">Belanova</a>
+                </div>
+            </section>
+        </div>
+    </main>
+</body>
+</html>

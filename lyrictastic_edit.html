@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@100;400&display=swap" rel="stylesheet">
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Lyrictastic - Editor</title>
+</head>
+<body>
+    <header class="header">
+        <h2 class="header__titulo"> 
+            <span class="header__titulo--thin">Lyric</span>tastic
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-microphone-2" width="28" height="28" viewBox="0 0 24 24" stroke-width="2" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M15 12.9a5 5 0 1 0 -3.902 -3.9" />
+                <path d="M15 12.9l-3.902 -3.899l-7.513 8.584a2 2 0 1 0 2.827 2.83l8.588 -7.515z" />
+              </svg>
+        </h2>
+        <nav class="nav">
+            <a class="nav__a light" href="discover.html">Descubre más</a>
+            <a class="nav__a light" href="lyrictastic_edit.html">Crea más letras</a>
+            <a class="nav__a bold" href="#">Inicia sesión</a>
+        </nav>
+    </header>
+
+    <main class="contenedor">
+        <form class="formulario" action="">
+            <legend>Genera tus lyrics a continuación</legend>
+            <fieldset class="formulario_display">
+
+                <div class="inputs">
+                    <label for="">Título</label>
+                    <input required class="inputs__texto" type="text" placeholder="Escribe el título de la canción">
+                </div>
+
+                <div class="inputs">
+                    <label for="">Artista</label>
+                    <select required class="inputs__selector" name="" id="">
+                        <option value="" disabled selected>Selecciona uno</option>
+                        <option value="">Eminem</option>
+                        <option value="">Jack Harlow</option>
+                        <option value="">Logic</option>
+                        <option value="">Cyclo</option>
+                    </select>
+                </div>
+
+                <!-- <div class="disposicionPC"> -->
+                    <div class="inputs">
+                        <label for="">Carátula</label>
+                        <input class="inputs__file" type="file">
+                    </div>
+
+                    <div class="inputs">
+                        <label for="">Fuente (Distrinbuidor de la canción original)</label>
+                        <input class="inputs__texto" type="text" placeholder="Escribe el nombre respetando mayúsulas">
+                    </div>
+                </div>
+                <div class="inputs edicionletras">
+                    <label for="">Letra de la canción</label>
+                    <textarea class="inputs__letras" name="" id="" placeholder="Escribe toda le letra aquí"></textarea>
+                    <button class="boton-default">Envíar</button>
+                </div>
+                <!-- </div> -->
+            </fieldset>
+        </form>
+    </main>
+</body>
+</html>

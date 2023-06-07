@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@100;400&display=swap" rel="stylesheet">
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body class="bodylogin">
+    
+    <main class="login">
+        <div class="cabecera">
+            <h2 class="header__titulo sinmargen"> 
+                <span class="header__titulo--thin">Lyric</span>tastic
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-microphone-2" width="28" height="28" viewBox="0 0 24 24" stroke-width="2" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M15 12.9a5 5 0 1 0 -3.902 -3.9" />
+                    <path d="M15 12.9l-3.902 -3.899l-7.513 8.584a2 2 0 1 0 2.827 2.83l8.588 -7.515z" />
+                  </svg>
+            </h2>
+        </div>
+
+        <div class="registro">
+            <h2 class="registro__titulo">Bienvenido</h2>
+            <p class="registro__instrucciones">Ingresa tu usuario y tu contraseña para continuar</p>
+
+            <form class="datoslogin" action="">
+                <label class="registro__label" for="">Usuario</label>
+                <input class="registro__texto" type="text">
+                <label class="registro__label" for="">Contraseña</label>
+                <input class="registro__texto" type="password">
+
+                <div class="datoslogin__flex">
+                    <a class="registro__link" href="">¿Olvidaste tu contraseña?</a>
+                    <a class="registro__link" href="">¿No tienes una cuenta? Crea una aquí</a>
+                </div>
+                <button type="submit" class="datosloginbtn boton-default margin-top-boton">Iniciar sesión</button>
+            </form>
+
+            
+        </div>
+    </main>
+</body>
+</html>
